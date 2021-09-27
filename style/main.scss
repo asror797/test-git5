@@ -1,0 +1,333 @@
+header {
+    width: 100%;
+    .container {
+        .header-itm {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color:white;
+            margin-top: 35px;
+            padding: 13px 21px ;
+            .logo {
+                display:flex;
+                align-items: center;
+                justify-content: start;
+                padding:1px 7px;
+                margin-top: 15px;
+                a {
+                    font-size: 27px;
+                    font-weight: 700;
+                    padding-left:9px;
+                    text-decoration: none;
+                    color: rgba(0, 0, 0, 0.849);
+                    span {
+                        color: #0e71d5;
+                    }
+                }
+            }
+
+            // bu yerda drop downlar bor hammasi   shu yerda 
+            .nav-list {
+                list-style: none;
+                display: flex;
+                justify-content: flex-start;
+                margin:25px 0 15px 0;
+                li {
+                    margin-right: 33px;
+                    a {
+                        font-size:19px;
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+                .li-home {
+                    a {
+                        color: #0e71d5;
+                        text-decoration: underline;
+                    }
+                }
+                .li {
+                    a {
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+                } 
+                .dropdown1-li {
+                    display: inline-block;
+                    position: relative;
+                    .dropdown1 {
+                        display: none;
+                        position: absolute;
+                        z-index: 3;
+                        width: 355px;
+                        background-color: white;
+                        list-style: none;
+                        border: solid 1px #c7c7c7;
+                        li {
+                            width: 100%;
+                            padding: 7px 0 7px 15px;
+                            a {
+                                font-size:23px;
+                                color: #0e71d5;
+                            }
+                        }
+                        li:hover {
+                            background-color: rgb(219, 215, 215);
+                        }
+                    }
+                }
+                .dropdown1-li:hover .dropdown1 {
+                    display: block;
+                }
+                //shu yerda 1 tasi 
+                .dropdown2-li {
+                    display: inline-block;
+                    position: relative;
+                    .dropdown2 {
+                        display: none;
+                        position: absolute;
+                        z-index: 3;
+                        width: 355px;
+                        background-color: white;
+                        list-style: none;
+                        border: solid 1px #c7c7c7;
+                        li {
+                            width: 100%;
+                            padding: 7px 0 7px 15px;
+                            a {
+                                font-size:23px;
+                                color: #0e71d5;
+                            }
+                        }
+                        li:hover {
+                            background-color: rgb(219, 215, 215);
+                        }
+                    }
+                }
+                .dropdown2-li:hover .dropdown2 {
+                    display: block;
+                    
+                }
+                //shu yerda yana
+                .dropdown3-li {
+                    display: inline-block;
+                    position: relative;
+                    .dropdown3 {
+                        display: none;
+                        position: absolute;
+                        z-index: 3;
+                        width: 235px;
+                        background-color: white;
+                        list-style: none;
+                        border: solid 1px #c7c7c7;
+                        li {
+                            width: 100%;
+                            padding: 7px 0 7px 15px;
+                            a {
+                                font-size:23px;
+                                color: #0e71d5;
+                            }
+                        }
+                        li:hover {
+                            background-color: rgb(219, 215, 215);
+                        }
+                    }
+                }
+                .dropdown3-li:hover .dropdown3 {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+///////////////////////////////////////////////////////////////////////////////
+
+.main {
+    width: 100%;
+    margin-top: 75px;
+    .container {
+        .main-itm {
+            width: 100%;
+            display:flex;
+            justify-content:space-between;
+            background-color: white;
+            section {
+                width: 69%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 25px 9px;
+                .box1 {
+                    width: 100%;
+                    padding: 9px 25px 0 15px ;
+                    margin-bottom: 23px;
+                    h2 {
+                        width: 91%;
+                        font-size:19px;
+                        padding: 2px 9px;
+                        border-bottom: solid 2px #8acf3b;
+                        border-radius: 2px;
+                        a {
+                            color: #999ca5;
+                            text-decoration: none;
+                        }
+                    }
+                    .topic{
+                        font-weight: 500;
+                        margin: 21px 0;
+                        h3 {
+                            margin: 5px 0;
+                            a {
+                                text-decoration: none;
+                                color: #0e71d5;
+                            }
+                            a:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                        p {
+                            line-height: 1.3em;
+                            padding-left: 3px;
+                            a {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .topic:hover {
+                        background-color: #e7e9f098;
+                    }
+                    .others {
+                        text-decoration: none;
+                        span {
+                            display: none;
+                        }
+                    }
+                    .others:hover  span {
+                        display: inline-block;
+                    }
+                }
+
+                .box2 {
+                    width: 100%;
+                    margin-bottom: 55px;
+                    padding: 9px 25px 0 15px ;
+
+
+                    h2 {
+                        width: 91%;
+                        font-size:19px;
+                        padding: 2px 9px;
+                        border-bottom: solid 2px #F58D3D;
+                        border-radius: 2px;
+                        a {
+                            color: #999ca5;
+                            text-decoration: none;
+                        }
+                    }
+                    .topic{
+                        font-weight: 500;
+                        margin: 21px 0;
+                        h3 {
+                            margin: 5px 0;
+                            a {
+                                text-decoration: none;
+                                color: #0e71d5;
+                            }
+                            a:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                        p {
+                            line-height: 1.3em;
+                            padding-left: 3px;
+                            a {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .topic:hover {
+                        background-color: #e7e9f098;
+                    }
+                }
+
+                .box3 {
+                    width: 100%;
+                    padding: 9px 25px 0 15px ;
+                    margin-bottom: 55px;
+                    display: flex;
+                    justify-content: space-between;
+                    .left-box {
+                        width: 49%;
+                        h2 {
+                            width: 91%;
+                            padding: 5px 0; 
+                            border-bottom: solid 2px #8acf3b;
+                            a {
+                                text-decoration: none;
+                                color: #0e71d5;
+                            }
+                        }
+                        .topic3 {
+                            width: 100%;
+                            margin-top: 21px;
+                            display: flex;
+                            img {
+                                margin:0 7px 7px 0;
+                            }
+                        }
+                    }
+                    .right-box {
+                        width: 49%;
+                        h2 {
+                            width: 91%;
+                            padding: 5px 0; 
+                            border-bottom: solid 2px #F58D3D;
+                            a {
+                                color: #0e71d5;
+                                text-decoration: none;
+                            }
+                        }
+                         .topic3 {
+                            width: 100%;
+                            margin-top: 21px;
+                            display: flex;
+                            img {
+                                margin:0 7px 7px 0;
+                             }
+                        }
+                    }
+                    
+                    
+                }
+
+            }
+            aside {
+                width: 31%;
+                border: solid 1px black;
+                .links {
+                    width: 100%;
+                    padding: 0 13px ;
+                    .article-list {
+                        color:#0e71d5;
+                        margin:215px 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    width: 100%;
+    margin-bottom: 75px;
+    .container {
+        .footer-itm {
+            text-align: center;
+        }
+    }
+}
+
+
+
